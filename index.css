@@ -1,0 +1,38 @@
+body { font-family: helvetica, arial, sans-serif; }
+
+em { background: cyan; font-style: normal }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 30%;
+  grid-gap: 5%
+}
+
+.hits {
+  display: grid;
+  grid-template-columns: 70%;
+  grid-gap: 5%
+}
+.ais-hits {
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 5%;
+}
+.ais-hits--item {
+  background: #d7ecf7;
+  margin-bottom: .5em;
+  padding: 1em;
+  min-height: 100px;
+}
+#searchBox {
+  margin-bottom: 2em;
+}
+#pagination {
+  margin: 0 auto;
+  text-align:center;
+}

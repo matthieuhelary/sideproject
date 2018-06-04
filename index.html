@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Do not use @2 in production, use a complete version like x.x.x, see website for latest version:
+      https://community.algolia.com/instantsearch.js/v2/getting-started.html
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch.min.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch-theme-algolia.min.css">
+	  <link rel="stylesheet" href="./index.css">
+    <meta charset="utf-8">
+    <title>Algolia InstantSearch.js template</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        Cayakeo.com (beta v0.1)
+      </h1>
+
+      <div id="searchBox"></div>
+      <div class="filters">
+        <div id="category"></div>
+        <div id="brand"></div>
+	    </div>
+	    <div class="hits">
+        <div id="product"></div>
+      </div>
+      <div id="pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
